@@ -74,6 +74,10 @@ BLANK           [\ \f\r\t\v]+
   *  The multiple-character operators.
   */
 
+\.  {return '.';}
+\@  {return '@';}
+\~  {return '~';}
+
 {BLANK} {}
 
 {INTEGER} {
