@@ -77,6 +77,7 @@ BLANK           [\ \f\r\t\v]+
 \.  {return '.';}
 \@  {return '@';}
 \~  {return '~';}
+\<  {return '<';}
 
 {BLANK} {}
 
