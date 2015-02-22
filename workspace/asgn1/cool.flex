@@ -170,10 +170,6 @@ isvoid {return (ISVOID);}
 \(  { return '('; }
 
 \)  { return ')'; }
-    
-\[  { return '['; }
-
-\]  { return ']'; }
 
 \* { return '*'; }
 
@@ -182,7 +178,6 @@ isvoid {return (ISVOID);}
 \+ { return '+'; }
 
 \- { return '-'; }
-
 
 
 INTEGER {
